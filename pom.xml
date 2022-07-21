@@ -19,7 +19,7 @@
 	<repositories>
 		<repository>
 			<id>my-repo1</id>
-			<url>http://artifactorypg.paytm.in/artifactory/libs-release </url>
+			<url>https://artifactorypg.paytm.in/artifactory/libs-release/PaytmChecksum/</url>
 		</repository>
 	</repositories>
 	<dependencies>
