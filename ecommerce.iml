@@ -11,6 +11,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+<<<<<<< HEAD
     <orderEntry type="library" name="Maven: io.springfox:springfox-boot-starter:3.0.0" level="project" />
     <orderEntry type="library" name="Maven: io.springfox:springfox-oas:3.0.0" level="project" />
     <orderEntry type="library" name="Maven: io.swagger.core.v3:swagger-annotations:2.1.2" level="project" />
@@ -32,6 +33,12 @@
     <orderEntry type="library" name="Maven: com.fasterxml:classmate:1.5.1" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.36" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.plugin:spring-plugin-core:2.0.0.RELEASE" level="project" />
+=======
+    <orderEntry type="library" name="Maven: com.paytm.pg:paytm-checksum:1.2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-oauth2-client:5.7.1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-core:5.7.2" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-crypto:5.7.2" level="project" />
+>>>>>>> master
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.21" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:5.3.21" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.plugin:spring-plugin-metadata:2.0.0.RELEASE" level="project" />
