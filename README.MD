@@ -2,7 +2,7 @@
 
 # Admin Controller
 
-GET
+GET <br />
 ​/admin -> adminHome , 
 GET
 ​/admin​/categories -> GetCategoriesPage , 
