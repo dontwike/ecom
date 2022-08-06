@@ -17,7 +17,6 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
-<<<<<<< HEAD
 		<!-- https://mvnrepository.com/artifact/io.springfox/springfox-boot-starter -->
 		<dependency>
 			<groupId>io.springfox</groupId>
@@ -30,13 +29,7 @@
 			<artifactId>springfox-swagger-ui</artifactId>
 			<version>3.0.0</version>
 		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/com.paytm.pg/paytm-checksum -->
 		<dependency>
-=======
-		<!-- https://mvnrepository.com/artifact/com.paytm.pg/paytm-checksum -->
-		<dependency>
->>>>>>> master
 			<groupId>com.paytm.pg</groupId>
 			<artifactId>paytm-checksum</artifactId>
 			<version>1.2.1</version>
