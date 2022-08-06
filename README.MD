@@ -4,74 +4,74 @@
 
 GET <br />
 ​/admin -> adminHome , 
-GET
+GET <br />
 ​/admin​/categories -> GetCategoriesPage , 
-GET
+GET <br />
 ​/admin​/categories​/add  -> GetCategoriesAddPage , 
-POST
+POST <br />
 ​/admin​/categories​/add -> PostCategoriesAddPage , 
-GET
+GET <br />
 ​/admin​/categories​/delete​/{id} -> DeleteCategory , 
-GET
+GET <br />
 ​/admin​/categories​/update​/{id} -> UpdateCategory , 
-GET
+GET <br />
 ​/admin​/product​/delete​/{id} -> DeleteProduct , 
-GET
+GET <br />
 ​/admin​/product​/update​/{id -> UpdateProduct , 
-GET
+GET <br />
 ​/admin​/products -> GetProducts , 
-GET
+GET <br />
 ​/admin​/products​/add -> GetProductsAdd , 
-POST
+POST <br />
 ​/admin​/products​/add -> PostProduct , 
 
 # Cart Controller
 
-GET
+GET <br />
 ​/addToCart​/{id} -> addToCart , 
-GET
+GET <br />
 ​/cart -> cart , 
-GET
+GET <br />
 ​/cart​/removeItem​/{index} -> cartItemRemove , 
-GET
+GET <br />
 ​/checkout -> checkout , 
 
 # Home Controller
 
-GET
+GET <br />
 ​/ -> home , 
-GET
+GET <br />
 ​/home -> home , 
-GET
+GET <br />
 ​/shop -> shop , 
-GET
+GET <br />
 ​/shop​/category​/{id} -> shopByCategory , 
-GET
+GET <br />
 ​/shop​/viewproduct​/{id} -> ViewProduct , 
 
 # login Controller
 
-GET
+GET <br />
 ​/login -> login , 
-GET
+GET <br />
 ​/register -> registerGet , 
-POST
+POST <br />
 ​/register -> registerPost , 
 
 # Operation Handler
 
-GET
+GET <br />
 ​/actuator​/health -> handle , 
-GET
+GET <br />
 ​/actuator​/health​/** -> handle , 
 
 # Paytm Controller
 
-GET
+GET <br />
 ​/payNow -> home1 , 
-POST
+POST <br />
 ​/payNow -> home , 
-POST
+POST <br />
 ​/pgresponse -> getResponseRedirect , 
-POST
+POST <br />
 ​/submitPaymentDetail -> getRedirect , 
