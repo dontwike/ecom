@@ -3,75 +3,75 @@
 # Admin Controller
 
 GET <br />
-​/admin -> adminHome , 
+​/admin -> adminHome <br />
 GET <br />
-​/admin​/categories -> GetCategoriesPage , 
+​/admin​/categories -> GetCategoriesPage  <br /> 
 GET <br />
-​/admin​/categories​/add  -> GetCategoriesAddPage , 
+​/admin​/categories​/add  -> GetCategoriesAddPage  <br /> 
 POST <br />
-​/admin​/categories​/add -> PostCategoriesAddPage , 
+​/admin​/categories​/add -> PostCategoriesAddPage   <br />
 GET <br />
-​/admin​/categories​/delete​/{id} -> DeleteCategory , 
+​/admin​/categories​/delete​/{id} -> DeleteCategory  <br /> 
 GET <br />
-​/admin​/categories​/update​/{id} -> UpdateCategory , 
+​/admin​/categories​/update​/{id} -> UpdateCategory  <br /> 
 GET <br />
-​/admin​/product​/delete​/{id} -> DeleteProduct , 
+​/admin​/product​/delete​/{id} -> DeleteProduct <br />
 GET <br />
-​/admin​/product​/update​/{id -> UpdateProduct , 
+​/admin​/product​/update​/{id -> UpdateProduct  <br /> 
 GET <br />
-​/admin​/products -> GetProducts , 
+​/admin​/products -> GetProducts  <br /> 
 GET <br />
-​/admin​/products​/add -> GetProductsAdd , 
+​/admin​/products​/add -> GetProductsAdd  <br /> 
 POST <br />
-​/admin​/products​/add -> PostProduct , 
+​/admin​/products​/add -> PostProduct  <br /> 
 
 # Cart Controller
 
 GET <br />
-​/addToCart​/{id} -> addToCart , 
+​/addToCart​/{id} -> addToCart  <br /> 
 GET <br />
-​/cart -> cart , 
+​/cart -> cart  <br  <br />
 GET <br />
-​/cart​/removeItem​/{index} -> cartItemRemove , 
+​/cart​/removeItem​/{index} -> cartItemRemove  <br  <br />
 GET <br />
-​/checkout -> checkout , 
+​/checkout -> checkout  <br  <br />
 
 # Home Controller
 
 GET <br />
-​/ -> home , 
+​/ -> home  <br />
 GET <br />
-​/home -> home , 
+​/home -> home  <br />
 GET <br />
-​/shop -> shop , 
+​/shop -> shop  <br />
 GET <br />
-​/shop​/category​/{id} -> shopByCategory , 
+​/shop​/category​/{id} -> shopByCategory  <br />
 GET <br />
-​/shop​/viewproduct​/{id} -> ViewProduct , 
+​/shop​/viewproduct​/{id} -> ViewProduct  <br />
 
 # login Controller
 
 GET <br />
-​/login -> login , 
+​/login -> login  <br />
 GET <br />
-​/register -> registerGet , 
+​/register -> registerGet  <br />
 POST <br />
-​/register -> registerPost , 
+​/register -> registerPost  <br />
 
 # Operation Handler
 
 GET <br />
-​/actuator​/health -> handle , 
+​/actuator​/health -> handle  <br />
 GET <br />
-​/actuator​/health​/** -> handle , 
+​/actuator​/health​/** -> handle  <br />
 
 # Paytm Controller
 
 GET <br />
-​/payNow -> home1 , 
+​/payNow -> home1  <br />
 POST <br />
-​/payNow -> home , 
+​/payNow -> home  <br />
 POST <br />
-​/pgresponse -> getResponseRedirect , 
+​/pgresponse -> getResponseRedirect  <br />
 POST <br />
-​/submitPaymentDetail -> getRedirect , 
+​/submitPaymentDetail -> getRedirect  <br />
