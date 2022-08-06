@@ -3,75 +3,75 @@
 # Admin Controller
 
 GET
-​/admin -> adminHome
+​/admin -> adminHome , 
 GET
-​/admin​/categories -> GetCategoriesPage
+​/admin​/categories -> GetCategoriesPage , 
 GET
-​/admin​/categories​/add  -> GetCategoriesAddPage
+​/admin​/categories​/add  -> GetCategoriesAddPage , 
 POST
-​/admin​/categories​/add -> PostCategoriesAddPage
+​/admin​/categories​/add -> PostCategoriesAddPage , 
 GET
-​/admin​/categories​/delete​/{id} -> DeleteCategory
+​/admin​/categories​/delete​/{id} -> DeleteCategory , 
 GET
-​/admin​/categories​/update​/{id} -> UpdateCategory
+​/admin​/categories​/update​/{id} -> UpdateCategory , 
 GET
-​/admin​/product​/delete​/{id} -> DeleteProduct
+​/admin​/product​/delete​/{id} -> DeleteProduct , 
 GET
-​/admin​/product​/update​/{id -> UpdateProduct
+​/admin​/product​/update​/{id -> UpdateProduct , 
 GET
-​/admin​/products -> GetProducts
+​/admin​/products -> GetProducts , 
 GET
-​/admin​/products​/add -> GetProductsAdd
+​/admin​/products​/add -> GetProductsAdd , 
 POST
-​/admin​/products​/add -> PostProduct
+​/admin​/products​/add -> PostProduct , 
 
 # Cart Controller
 
 GET
-​/addToCart​/{id} -> addToCart
+​/addToCart​/{id} -> addToCart , 
 GET
-​/cart -> cart
+​/cart -> cart , 
 GET
-​/cart​/removeItem​/{index} -> cartItemRemove
+​/cart​/removeItem​/{index} -> cartItemRemove , 
 GET
-​/checkout -> checkout
+​/checkout -> checkout , 
 
 # Home Controller
 
 GET
-​/ -> home
+​/ -> home , 
 GET
-​/home -> home
+​/home -> home , 
 GET
-​/shop -> shop
+​/shop -> shop , 
 GET
-​/shop​/category​/{id} -> shopByCategory
+​/shop​/category​/{id} -> shopByCategory , 
 GET
-​/shop​/viewproduct​/{id} -> ViewProduct
+​/shop​/viewproduct​/{id} -> ViewProduct , 
 
 # login Controller
 
 GET
-​/login -> login
+​/login -> login , 
 GET
-​/register -> registerGet
+​/register -> registerGet , 
 POST
-​/register -> registerPost
+​/register -> registerPost , 
 
 # Operation Handler
 
 GET
-​/actuator​/health -> handle
+​/actuator​/health -> handle , 
 GET
-​/actuator​/health​/** -> handle
+​/actuator​/health​/** -> handle , 
 
 # Paytm Controller
 
 GET
-​/payNow -> home1
+​/payNow -> home1 , 
 POST
-​/payNow -> home
+​/payNow -> home , 
 POST
-​/pgresponse -> getResponseRedirect
+​/pgresponse -> getResponseRedirect , 
 POST
-​/submitPaymentDetail -> getRedirect
+​/submitPaymentDetail -> getRedirect , 
