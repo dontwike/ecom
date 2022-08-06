@@ -1,4 +1,4 @@
-<h1 align="center">## API Documentation </h1>
+<h1 align="center">API Documentation </h1>
 
 # Admin Controller
 
