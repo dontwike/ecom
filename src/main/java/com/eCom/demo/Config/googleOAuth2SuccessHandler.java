@@ -33,7 +33,7 @@ public class googleOAuth2SuccessHandler implements AuthenticationSuccessHandler 
     public void onAuthenticationSuccess(HttpServletRequest request, HttpServletResponse response, Authentication authentication) throws IOException {
         OAuth2AuthenticationToken token = (OAuth2AuthenticationToken) authentication;
         String email = token.getPrincipal().getAttributes().get("email").toString();
-        if(userRepo.findUserByEmail(email).isEmpty()){
+        if(!userRepo.findUserByEmail(email).isPresent()){
             User user = new User();
             user.setFirstName(token.getPrincipal().getAttributes().get("given_name").toString());
             user.setLastName(token.getPrincipal().getAttributes().get("family_name").toString());
